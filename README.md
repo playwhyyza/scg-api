@@ -1,5 +1,7 @@
 # scg-api
 
-cd Go/src/scg
+https://github.com/golang/go/wiki/SettingGOPATH
 
-go run main.go
+- cd Go/src/scg
+
+- go run main.go
