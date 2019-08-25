@@ -61,7 +61,7 @@ func findRestaurants(w http.ResponseWriter, r *http.Request) {
 
 	switch r.Method {
 	case http.MethodGet:
-		apiKey := "AIzaSyCZliVusLZSioGdfhayZmiDvjo0jJimGd0"
+		apiKey := "Insert-API-Key-Here"
 		apiURL := "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
 		location := "13.8234866,100.5081204" // Bangsue
 		radius := "1000"
